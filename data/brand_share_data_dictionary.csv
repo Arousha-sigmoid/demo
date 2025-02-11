@@ -1,0 +1,111 @@
+Table Name,Column Name,Description
+brand_share_vw,RESP_NO STRING,Unique identifier for each respondents
+brand_share_vw,FDG_PERIOD_CD STRING,The feeding period code indicates the duration of baby feed
+brand_share_vw,FDG_METH_CD STRING,The feeding method code represents the code corresponding to the feeding method
+brand_share_vw,INH_FDG_METH_CD STRING,The initial feeding method code indicates the code for the initial feeding method 
+brand_share_vw,BABY_BIRTH_YRMO STRING,The year and month of baby's born
+brand_share_vw,PARITY_CD STRING,The Parity code indicates the code for the mother's number of live births
+brand_share_vw,QUE_RESPONSE_DT DATE,The Date of response to the questionnaire
+brand_share_vw,BABY_BIRTH_DT DATE,The baby's date of birth 
+brand_share_vw,EVER_WIC_FL STRING,It indicates if the baby ever participated in the WIC program
+brand_share_vw,FDG_METHOD STRING,The feeding method used by the baby
+brand_share_vw,BRAND_CD STRING,The Code for the brand or feeding product
+brand_share_vw,PARITY STRING,The parity indicates the mother's number of live births
+brand_share_vw,FDG_PERIOD STRING,The Feeding period indicates the duration of baby feeding
+brand_share_vw,BRAND_WT_ADJ DOUBLE,The weight adjustment factor for the brand
+brand_share_vw,CUMUL_MB_WT_ADJ DOUBLE,The Cumulative weight adjustment factor for market-based projections
+brand_share_vw,INH_FDG_METHOD STRING,It represents the method for the initial feeding 
+hospital_vw,sap_account_number STRING,Unique identifier for hospital
+hospital_vw,sap_account_name STRING,The Name of the hospital
+hospital_vw,street STRING,The street name of the hospital
+hospital_vw,state STRING,The state of the hospital
+hospital_vw,city STRING,The city of the hospital
+hospital_vw,zip STRING,The zip of the hospital
+hospital_vw,inactive STRING,The status of the hospital
+hospital_vw,hfs_hospital STRING,It indicates whether a hospital is part of the Healthcare Funding System
+hospital_vw,state_wic_contract_owner STRING,The owner of the WIC contract in the state where the hospital is located
+hospital_vw,hospital_feeding_practice_hfp STRING,Indicates the specific feeding practice followed by a hospital
+hospital_vw,nicu STRING,Indicates whether the hospital has a NICU unit or not
+hospital_vw,"exclusive_bf DECIMAL(3,2)",The number of births recorded in the hospital whether babies born were exclusively breast fed
+hospital_vw,"exclusive_ff DECIMAL(3,2)",The number of births recorded in the hospital whether babies born were exclusively formula fed
+hospital_vw,"exclusive_supplement DECIMAL(3,2)",The number of births recorded in the hospital whether babies born were exclusively supplemented
+hospital_vw,net_total_births INT,The total number of births recorded in the hospital till date
+hospital_vw,net_nw_births INT,The total number of non-wic births recorded in the hospital till date
+hospital_vw,net_preterm INT,"The total number of preterm births recorded in the hospital till date, i.e., births where the baby was born before completing 9 full months in the womb."
+hospital_vw,yearmonth DATE,The month and year in which this information was captured
+hospital_vw,TERR_NO STRING,The territory number represents the number for the specific geographic
+hospital_vw,SBU_NO STRING,The Strategic Business Unit number identifying a specific business division
+win_lost_dim,sap_account_number STRING,Unique identifier for hospital
+win_lost_dim,sap_account_name STRING,The Name of the hospital
+win_lost_dim,hospital_city STRING,The city in which the hospital is present
+win_lost_dim,hospital_state STRING,The state in which the hospital is present
+win_lost_dim,hospital_zip STRING,The zip code for the location of the hospital
+win_lost_dim,hospital_address STRING,The complete address of the hospital
+win_lost_dim,current_hfp STRING,The current contract holder for the hospital
+win_lost_dim,previous_hfp STRING,he previous contract holder for the hospital
+win_lost_dim,contract_status STRING,The current contract status of the hospital
+win_lost_dim,contract_start_date DATE,The date when the contract started
+win_lost_dim,contract_expire_date TIMESTAMP,The date when the contract is expiring or expired
+win_lost_dim,nicu STRING,Indicates whether the hospital has a NICU unit or not
+win_lost_dim,net_total_births INT,The total number of births recorded in the hospital till date
+win_lost_dim,net_nw_births INT,The total number of non-wic births recorded in the hospital till date
+win_lost_dim,TERR_NO STRING,The territory number represents the number for the specific geographic
+win_lost_dim,SBU_NO STRING,The Strategic Business Unit number identifying a specific business division
+sample_brand_share_vw,Baby_birth_dt DATE,The baby's date of birth
+sample_brand_share_vw,Baby_birth_yrmo STRING,The year and month of baby's born
+sample_brand_share_vw,bs_Brand_cd STRING,The Code for the brand or feeding product
+sample_brand_share_vw,Brand_wt_adj DOUBLE,The weight adjustment factor for the brand
+sample_brand_share_vw,CUMUL_MB_WT_ADJ DOUBLE,The Cumulative weight adjustment factor for market-based projections
+sample_brand_share_vw,Ever_wic_fl STRING,It indicates if the baby ever participated in the WIC program
+sample_brand_share_vw,FDG_meth_cd STRING,The feeding method code represents the code corresponding to the feeding method
+sample_brand_share_vw,FDG_method STRING,The feeding method used by the baby
+sample_brand_share_vw,FDG_period_cd STRING,The feeding period code indicates the duration of baby feed
+sample_brand_share_vw,FDG_period STRING,The Feeding period indicates the duration of baby feeding
+sample_brand_share_vw,Parity STRING,The parity indicates the mother's number of live births
+sample_brand_share_vw,Parity_cd STRING,The Parity code indicates the code for the mother's number of live births
+sample_brand_share_vw,Que_response_dt DATE,The Date of response to the questionnaire
+sample_brand_share_vw,bs_Resp_no STRING,Unique identifier for each respondents
+sample_brand_share_vw,inh_fdg_meth_cd STRING,The initial feeding method code indicates the code for the initial feeding method
+sample_brand_share_vw,inh_fdg_method STRING,It represents the method for the initial feeding 
+sample_brand_share_vw,Brand STRING,The name of the brand
+sample_brand_share_vw,brand_category STRING,The different categories of the brand
+sample_brand_share_vw,pm_Brand_cd STRING,The code of the brand
+sample_brand_share_vw,brand_mfg_nm STRING,The name of the brand manufacturer
+sample_brand_share_vw,pm_mfg_cd STRING,The manufacturer code represents the code assign to the manufacturer
+sample_brand_share_vw,segment STRING,Represents different stages for the brand
+sample_brand_share_vw,solution_cd STRING,Represents different types or categories of solutions offered
+sample_brand_share_vw,sub_brand STRING,The name of the sub-brand
+sample_brand_share_vw,sub_brand_variant STRING,The name of the variant present in the sub-brand
+sample_brand_share_vw,Type1 STRING,Represents different classifications or categories of service types
+sample_brand_share_vw,Z_TERR_NO STRING,The zone territory number represents the number for the specific geographical zone
+sample_brand_share_vw,H_TERR_NO STRING,The hierarchy territory number represents the number for the assigned hierarchy
+sample_brand_share_vw,srd_MFG_CD STRING,The manufacturer code represents the code assign to the samples
+sample_brand_share_vw,srd_resp_no STRING,Unique identifier for each respondents
+brand_product_alignment_vw,Baby_birth_dt DATE,The baby's date of birth
+brand_product_alignment_vw,Baby_birth_yrmo STRING,The year and month of baby's born
+brand_product_alignment_vw,bs_Brand_cd STRING,The code of the brand
+brand_product_alignment_vw,Brand_wt_adj DOUBLE,The weight adjustment factor for the brand
+brand_product_alignment_vw,CUMUL_MB_WT_ADJ DOUBLE,The Cumulative weight adjustment factor for market-based projections
+brand_product_alignment_vw,Ever_wic_fl STRING,It indicates if the baby ever participated in the WIC program
+brand_product_alignment_vw,FDG_meth_cd STRING,The feeding method code represents the code corresponding to the feeding method
+brand_product_alignment_vw,FDG_method STRING,The feeding method used by the baby
+brand_product_alignment_vw,FDG_period_cd STRING,The feeding period code indicates the duration of baby feed
+brand_product_alignment_vw,FDG_period STRING,The Feeding period indicates the duration of baby feeding
+brand_product_alignment_vw,Parity STRING,The parity indicates the mother's number of live births
+brand_product_alignment_vw,Parity_cd STRING,The Parity code indicates the code for the mother's number of live births
+brand_product_alignment_vw,Que_response_dt DATE,The Date of response to the questionnaire
+brand_product_alignment_vw,bs_Resp_no STRING,Unique identifier for each respondents
+brand_product_alignment_vw,inh_fdg_meth_cd STRING,The initial feeding method code indicates the code for the initial feeding method
+brand_product_alignment_vw,inh_fdg_method STRING,It represents the method for the initial feeding 
+brand_product_alignment_vw,Brand STRING,The name of the brand
+brand_product_alignment_vw,brand_category STRING,The different categories of the brand
+brand_product_alignment_vw,pm_Brand_cd STRING,The code of the brand
+brand_product_alignment_vw,brand_mfg_nm STRING,The name of the brand manufacturer
+brand_product_alignment_vw,pm_mfg_cd STRING,The manufacturer code represents the code assign to the manufacturer
+brand_product_alignment_vw,segment STRING,Represents different stages for the brand
+brand_product_alignment_vw,solution_cd STRING,Represents different types or categories of solutions offered
+brand_product_alignment_vw,sub_brand STRING,The name of the sub-brand
+brand_product_alignment_vw,sub_brand_variant STRING,The name of the variant present in the sub-brand
+brand_product_alignment_vw,Type1 STRING,Represents different classifications or categories of service types
+brand_product_alignment_vw,Z_TERR_NO STRING,The zone territory number represents the number for the specific geographical zone
+brand_product_alignment_vw,H_TERR_NO STRING,The hierarchy territory number represents the number for the assigned hierarchy

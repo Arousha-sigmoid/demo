@@ -1,0 +1,7 @@
+[theme]
+base="light"
+primaryColor = "#00008B"       # Set primary color (e.g., buttons, sliders)
+backgroundColor = "#ffffff"   # Background color for the main content area
+secondaryBackgroundColor = "#f2f2f2" # Background color for sidebar
+textColor = "#00008B"          # Default text color
+font = "sans serif"

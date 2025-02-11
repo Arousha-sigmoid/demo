@@ -1,0 +1,1 @@
+{"hospital_report": {"Table Name": "hospital_report", "Join Path": "Directly joins with the sales_inventory table on store_address."}, "sales_inventory": {"Table Name": "sales_inventory", "Join Path": "Directly joins with the hospital_report table on store_address"}}

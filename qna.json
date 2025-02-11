@@ -1,0 +1,115 @@
+[
+    {
+        "query": "Monthly rolling trend of hospital contracts won by MJN",
+        "response": {
+            "source": "",
+            "answer": "Here is the monthly rolling trend of hospital contracts won by MJN, illustrating the net number of hospital contracts won over time.",
+            "graphs": [
+                {
+                    "text1":"",
+                    "path":"",
+                    "code_path":"codes/Q1.py",
+                    "text2":"Here are some insights based on the trends observed:\n\n- **Hospitals Won**: There is variability in the number of hospitals won each month, with some months showing significant gains (e.g., November 2022). This trend can indicate a sporadic acquisition strategy or external factors influencing monthly wins.\n\n- **Hospitals Lost**: The number of hospitals lost fluctuates each month, with certain months showing higher losses. This variability might suggest challenges in retention or competition in certain periods.\n\n- **Rolling Net Hospitals Won**: The trend line is moving generally upward from January 2022 to mid-2024, indicating a steady net increase in the number of hospitals won, even as there are fluctuations in monthly gains and losses. This suggests that despite some months with notable hospital losses, the overall trend is one of growth, with more hospitals being won than lost on a rolling basis.\n\nTo strengthen performance, identifying specific months or conditions contributing to high losses could help strategize retention efforts, while months with high wins can provide insights for replicating success in other periods."
+                }
+            ],
+            "tab_name" : "'Hospital Contracts Overview' Tab.",
+            "link": "https://app.powerbi.com/groups/me/reports/0a31f2f3-23a7-4ca0-94a1-58ae71758832/ReportSectionf22b5601e0cd434e3721?ctid=95e66ecc-f2c2-464b-84d9-8fda407bc923&experience=power-bi&bookmarkGuid=Bookmarkebaa0e95b594b3513d22"
+        }
+    },
+
+    {
+        "query": "How many births has MJN gained since 2022?",
+        "response": {
+            "source": "",
+            "answer": "MJN has gained a total of **358,001 net births** since 2022, reflecting significant overall growth.",
+            "graphs": [
+                {
+                    "text1":"",
+                    "code_path":"codes/Q3.py",
+                    "path":"",
+                    "text2":"Here are trend insights from the quarterly data on births gained and lost:\n\n- **Steady Positive Growth**: Over the observed quarters, MJN consistently maintains positive net births, with an overall cumulative net gain of 358,001. This indicates strong underlying growth momentum, where the average quarterly births won (50,602) significantly exceeds the average quarterly births lost (18,057).\n\n- **Growth Spikes**: Quarters like Q2 2024 and Q4 2022 stand out with the highest net births and births won respectively, reflecting periods of intensified growth. These quarters may align with successful strategic efforts, promotional campaigns, or other beneficial conditions.\n\n- **Challenging Periods**: Q1 2022 shows the highest losses and lowest net births (-9,016), signaling a potential challenge at the beginning of the observed period. This may have been due to market entry issues, heightened competition, or other adverse conditions that the company overcame in later quarters.\n\n- **Strategic Insights**: The quarterly highs and lows can inform future strategic planning by highlighting periods of strength and vulnerability. The data suggests that certain quarters consistently perform better, possibly pointing to predictable cycles or windows of opportunity for concentrated efforts.\n\nThis quarterly trend analysis reflects both resilience and expansion potential, underscoring the company's ability to grow sustainably while navigating seasonal variations."
+                }
+            ],
+            "tab_name" : "'Hospital Contracts Overview' Tab.",
+            "link": "https://app.powerbi.com/groups/me/reports/0a31f2f3-23a7-4ca0-94a1-58ae71758832/ReportSectionf22b5601e0cd434e3721?ctid=95e66ecc-f2c2-464b-84d9-8fda407bc923&experience=power-bi&bookmarkGuid=Bookmarkebaa0e95b594b3513d22"
+        }
+    },
+
+    {
+        "query": "State-wise hospital contract performance?",
+        "response": {
+            "source": "",
+            "answer": "",
+            "dataframe":[
+                {
+                    "text1":"**Here is a dataframe showing the states with the most hospital contracts won since 2022.**",
+                    "path":"",
+                    "code_path":"codes/Q5_df.py",
+                    "text2":"**Several states show high activity in both hospital gains and losses:**\n\n- California (CA): 29 hospitals lost and 15 won, resulting in a net decrease of 14 hospitals.\n\n- Florida (FL): 15 hospitals lost and 22 won, yielding a net increase of 7 hospitals.\n\n- Indiana (IN): 9 hospitals lost and 28 won, with a net increase of 19 hospitals.\n\n- Texas (TX): 13 hospitals lost and 104 won, leading to a significant net increase of 91 hospitals.\n\nThese states reflect dynamic hospital landscapes, with both significant growth and attrition. California, in particular, stands out with more losses than gains, while Texas shows a massive net gain despite losses."
+                }
+            ],
+            "graphs": [
+                {
+                    "text1":"Here is a heat map displaying net hospital contracts won in each state.",
+                    "path":"",
+                    "code_path":"codes/Q5_plot.py",
+                    "text2":"**Notable States**\n\n**- Highest Net Gain:** Texas (TX), with a net increase of 91 hospitals.\n\n**- Lowest Net Gain:** California (CA), with a net decrease of 14 hospitals.\n\nThese extremes highlight significant disparities in hospital changes among states, with Texas showing major growth and California experiencing the largest decline.​"
+                }
+            ],
+            "tab_name" : "'Hospital Contracts Overview' Tab.",
+            "link": "https://app.powerbi.com/groups/me/reports/0a31f2f3-23a7-4ca0-94a1-58ae71758832/ReportSectionf22b5601e0cd434e3721?ctid=95e66ecc-f2c2-464b-84d9-8fda407bc923&experience=power-bi&bookmarkGuid=Bookmarkebaa0e95b594b3513d22"
+        }
+    },
+
+    {
+        "query": "Which retailers are having the best YOY growth for POS Sales?",
+        "response": {
+            "source": "",
+            "answer": "**Calculating the Year-on-Year (YOY) growth percentage in POS Sales for each retailer.**",
+            "dataframe":[
+                {
+                    "text1":"",
+                    "path":"",
+                    "code_path":"codes/Q14_df.py",
+                    "text2":"The following retailers have shown the biggest % increase in POS Sales from 2023 to 2024:\n\n- **Kroger** - With a 87.8% increase in POS Sales in the first 10 months of 2024, Kroger is the most improved retailer. The POS Sales have increased from 244.8M in the first 10 months of 2023 to 459.8M in 2024.\n\n- **BJ's** - With 50.2% growth in POS Sales in 2024, BJ's emerges as the second most improved retailer in terms of YoY Growth. The POS Sales have increased to 10.8M in 2024 (till October), up from 7.2M in the first ten months of 2023.\n\n- **HEB** - The POS Sales for HEB are up from 54.8M in 2023 to 77.2M in 2024, with a YoY growth of 41%."
+                }
+            ],
+            "graphs": [
+                {
+                    "text1":"**Let us plot the monthly Year-on-Year POS Sales for the most improved retailer.**",
+                    "path":"",
+                    "code_path":"codes/Q14_plot.py",
+                    "text2":"Kroger’s 2024 sales began with declines in January (-16.1%) and February (-16.5%) compared to 2023. However, sales rebounded in March (+20.7%) and continued to rise in April (+16%) and especially in May (+145.6%). The early-year downturn shifted to strong growth, with May showing an exceptional boost, likely due to strategic or seasonal factors."
+                }
+            ],
+            "tab_name" : "",
+            "link": ""
+        }
+    },
+
+    {
+        "query": "Compare monthly sales trends across top brands",
+        "response": {
+            "source": "",
+            "answer": "**Let us retrieve the top brands with the highest total POS sales since October 2022.**",
+            "dataframe":[
+                {
+                    "text1":"",
+                    "path":"",
+                    "code_path":"codes/Q10_df.py",
+                    "text2":"Here’s a breakdown of the best-performing brands based on sales:\n\n- **ENFAMIL** - Leads with sales totaling approximately 1.99 billion.\n\n- **ENFAMIL WIC** - Follows closely with 1.02 billion in sales.\n\n- **NUTRAMIGEN / ALLERGY** - Achieves 387.92 million in sales.\n\n- **ENFAGROW** - Reports sales of 148.5 million.\n\n- **NUTRAMIGEN** - Contributes 130.05 million.\n\nThese brands show strong market presence, with Enfamil products dominating sales, especially in the general and WIC categories. These insights suggest Enfamil's strength in the core infant nutrition segment, while other specialized brands have limited market penetration."
+                }
+            ],
+            "graphs": [
+                {
+                    "text1":"**For the top 5 brands, let us plot the monthly POS sales since October 2022.**",
+                    "path":"",
+                    "code_path":"codes/Q10_plot.py",
+                    "text2":"The monthly sales trends for the top 5 brands reveal the following insights:\n\n- **ENFAMIL** - Maintains the highest and most consistent sales, with notable peaks at certain intervals, possibly indicating seasonal or promotional effects.\n\n- **ENFAMIL WIC** - Follows ENFAMIL closely but with more variability, showing both highs and dips, likely influenced by WIC program cycles or state-level factors.\n\n- **NUTRAMIGEN / ALLERGY** - Displays a steady upward trend, suggesting growing demand in the allergy segment.\n\n- **ENFAGROW** - Shows moderate but steady sales, with minor fluctuations, indicating a stable yet niche market.\n\n- **NUTRAMIGEN** - Consistent, with slight increases over time, possibly reflecting steady demand for its specialized use.\n\nENFAMIL products clearly lead the market, while specialized products like NUTRAMIGEN show stable, incremental growth."
+                }
+            ],
+            "tab_name" : "'Sell Out Tracker' Tab, after filtering for the specific Global Brand.",
+            "link": "https://app.powerbi.com/groups/me/reports/0a31f2f3-23a7-4ca0-94a1-58ae71758832/ReportSectione9a21a75d716eab48ec9?ctid=95e66ecc-f2c2-464b-84d9-8fda407bc923&experience=power-bi"
+        }
+    }
+] 

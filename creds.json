@@ -1,0 +1,23 @@
+{
+    "cookie":
+        {
+            "expiry_days": 0,
+            "key": "main", 
+            "name": "cookie"
+        },
+        
+    "credentials":
+    {
+        "usernames":
+        {
+            "sigmoid":
+            {
+                "email": "",
+                "failed_login_attempts": 0, 
+                "logged_in": "False", 
+                "name": "Sigmoid User",
+                "password": "$herlock"
+            }
+        }
+    }
+}
