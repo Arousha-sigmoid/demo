@@ -363,6 +363,7 @@ PLOT_CODE_TEMPLATE = '''
     {user_question}
     
     Do not create any dataframes of your own. Assume the dataframe is named 'dataframe' and using the structure provided above write code for this dataframe only.
+    Use th exact numbers and values present in the dataframe. Do not hallucinate numbers of your own.
     Please generate plotly code to visualize this data for the question. 
     Use pandas for data manipulation and plotly for visualization.
     Make sure to name the plot as 'fig' in the code.
