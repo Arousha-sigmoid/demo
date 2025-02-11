@@ -423,8 +423,9 @@ and so on.
 Do not give any explanations for your answer."""
 
 
-# Answer Format Prompt
-ANSWER_FORMAT_PROMPT = '''Summarize the answer to the question for a business execute audience: "{user_question}" using the provided dataframe:\n"{answer_dict}".
+
+ANSWER_FORMAT_PROMPT = """Summarize the answer to the question for a business execute audience: "{user_question}" using the provided dataframe:
+{answer_dict}
 
 - Use bullet points for clarity wherever needed.
 - Come up with a natural language response, and do not just simply mirror the numbers in the dataframe. Try to provide insights wherever possible.
@@ -434,11 +435,11 @@ ANSWER_FORMAT_PROMPT = '''Summarize the answer to the question for a business ex
 - Do not add any extra information like explaination,steps,like etc.
 - Do not hallucinate any numbers on your own.
 Formatting guidelines:
-- Start directly with the answer, without mentioning the audience or using phrases like "Here is a summary..."
+- Start directly with the answer, without mentioning the audience or using phrases like 'Here is a summary...'
 - Use a single blank line between bullet points
-- Replace any '$' with "\$" in the final text
+- Replace any '$' with '\$' in the final text
 - Present the information as a natural, conversational response without referencing the data source
-Aim for a clear, concise summary that directly addresses the question based on the provided dataframe'''
+Aim for a clear, concise summary that directly addresses the question based on the provided dataframe"""
 
 
 KPI_PROMPT = """A user has asked the following question about our data: {question}. 
